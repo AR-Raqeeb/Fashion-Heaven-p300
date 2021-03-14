@@ -62,8 +62,8 @@ export default function ProductListScreen(props) {
     dispatch(createProduct());
   };
   return (
-    <div>
-      <div className="row">
+    <div className="editProduct">
+      <div className="row editProductTop">
         <h1>Products</h1>
         <button type="button" className="primary" onClick={createHandler}>
           Create Product

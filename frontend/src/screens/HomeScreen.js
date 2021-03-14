@@ -33,32 +33,31 @@ export default function HomeScreen() {
   }, [dispatch]);
   return (
     <div>
-      <h2>Available Brands</h2>
       <div className="slider">
        <Slider {...settings}>
       <div className="slider-img">
        <div>
-        <img src="https://i.ibb.co/zn656Qf/image.jpg" alt=""></img>
+        <img src="https://i.ibb.co/99Q7wmg/carousel-2.jpg" alt=""></img>
        </div>
       </div>
       <div className="slider-img">
        <div>
-        <img src=" https://i.ibb.co/q5zL7vd/Iju3yC.jpg" alt=""></img>
+        <img src="https://i.ibb.co/H2H7NYs/carousel-4.png" alt=""></img>
        </div>
       </div>
       <div className="slider-img">
        <div>
-        <img src="https://i.ibb.co/QM14y1z/7940d30574080f6f6abdc8c39b433ef7-w1920-h1080.jpg" alt=""></img>
+        <img src="https://i.ibb.co/jRTCQ5H/bag.jpg" alt=""></img>
        </div>
       </div>
       <div className="slider-img">
        <div>
-        <img src="https://i.ibb.co/Rg1xMrr/images.png" alt=""></img>
+        <img src="https://i.ibb.co/hdgXG0h/sock.webp" alt=""></img>
        </div>
       </div>
     </Slider>
     </div>
-      <h2>Featured Products</h2>
+      <h2 className="featuredProduct">Featured Products</h2>
       {loading ? (
         <LoadingBox></LoadingBox>
       ) : error ? (

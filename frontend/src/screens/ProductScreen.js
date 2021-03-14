@@ -56,7 +56,7 @@ export default function ProductScreen(props) {
         <MessageBox variant="danger">{error}</MessageBox>
       ) : (
         <div>
-          <Link to="/">Back to result</Link>
+          <button className="backToResult"><Link to="/">Back to result</Link></button>
           <div className="row top">
             <div className="col-2">
               <img
@@ -76,7 +76,7 @@ export default function ProductScreen(props) {
                     numReviews={product.numReviews}
                   ></Rating>
                 </li>
-                <li>Pirce : ${product.price}</li>
+                <li>Price : ${product.price}</li>
                 <li>
                   Description:
                   <p>{product.description}</p>

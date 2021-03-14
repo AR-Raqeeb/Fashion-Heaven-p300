@@ -60,7 +60,7 @@ function App() {
               <i className="fa fa-bars"></i>
             </button>
             <Link className="brand" to="/">
-              <span className="sports">Sports</span> <span className="zone">Zone</span>
+              <span className="sports">Fashion</span> <span className="zone">Heaven</span>
             </Link>
           </div>
           <div>
@@ -86,7 +86,7 @@ function App() {
                 </Link>
                 <ul className="dropdown-content">
                   <li>
-                    <Link to="/profile">User Profile</Link>
+                    <Link to="/profile">Profile</Link>
                   </li>
                   <li>
                     <Link to="/orderhistory">Order History</Link>
@@ -109,13 +109,13 @@ function App() {
                 </Link>
                 <ul className="dropdown-content">
                   <li>
-                    <Link to="/productlist">Products</Link>
+                    <Link to="/productlist">Edit Products</Link>
                   </li>
                   <li>
-                    <Link to="/orderlist">Orders</Link>
+                    <Link to="/orderlist">Check Orders</Link>
                   </li>
                   <li>
-                    <Link to="/userlist">Users</Link>
+                    <Link to="/userlist">Users List</Link>
                   </li>
                 </ul>
               </div>
@@ -209,9 +209,10 @@ function App() {
           ></AdminRoute>
           <Route path="/" component={HomeScreen} exact></Route>
         </main>
-        <footer className="row center">all rights reserved &copy;<a className="foot" href="https://www.facebook.com/tahmid.khan.9275/" rel="noopener noreferrer" target="_blank">Sports Zone</a>,2020</footer>
+        <footer className="row center">all rights reserved &copy;<a className="foot" href="https://www.facebook.com/HeavenforFashion/" rel="noopener noreferrer" target="_blank">Fashion Heaven </a> ,2021</footer>
       </div>
     </BrowserRouter>
+    
   );
 }
 
